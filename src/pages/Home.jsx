@@ -24,11 +24,11 @@ function Home() {
                                     <div className="follow_resources">
                                         <h4 className="follow_text">Follow Me</h4>
                                         <div className="pt-3 socail_medias">
-                                            <a href="https://www.facebook.com/abtahinoorsm" target="_blank"><FacebookIcon color="light" /></a>
-                                            <a href="https://www.instagram.com/smabtahinoor" target="_blank"><InstagramIcon /></a>
-                                            <a href="https://www.twitter.com/smabtahinoor" target="_blank"><TwitterIcon /></a>
-                                            <a href="https://www.linkedin.com/smabtahinoor" target="_blank"><LinkedInIcon /></a>
-                                            <a href="https://www.github.com/19smabtahinoor" target="_blank"><GitHubIcon /></a>
+                                            <a href="https://www.facebook.com/abtahinoorsm" target="_blank" rel="noreferrer"><FacebookIcon/></a>
+                                            <a href="https://www.instagram.com/smabtahinoor" target="_blank" rel="noreferrer"><InstagramIcon /></a>
+                                            <a href="https://www.twitter.com/smabtahinoor" target="_blank" rel="noreferrer"><TwitterIcon /></a>
+                                            <a href="https://www.linkedin.com/smabtahinoor" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+                                            <a href="https://www.github.com/19smabtahinoor" target="_blank" rel="noreferrer"><GitHubIcon /></a>
                                         </div>
                                     </div>
 
@@ -38,7 +38,7 @@ function Home() {
                                     
                                 </div>
                                 <div className="col-lg-6 order-1 order-lg-2 homepage_image">
-                                    <img src="https://i.ibb.co/drdRr7p/Developer-activity-bro.png" className="img-fluid animated" alt="Image" />
+                                    <img src="https://i.ibb.co/drdRr7p/Developer-activity-bro.png" className="img-fluid animated" alt="homepageimage" />
                                 </div>
                             </div>
                         </div>
