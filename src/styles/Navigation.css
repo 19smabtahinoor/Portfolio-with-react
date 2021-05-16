@@ -4,7 +4,6 @@
 }
 .navbar{
     background-color: #111a28 !important;
-    height: 66px;
 
 
 }
@@ -37,12 +36,18 @@
 }
 .burgerMenu{
     background:#00CF5D !important;
-    position: relative;
-    left: 189px;
-    top: -29px;
 }
 
-span.navbar-brand {
-    position: relative;
-    top: 10px;
+
+@media screen and (max-width:375px){
+    .burgerMenu{
+        background:#00CF5D !important;
+        position: relative;
+        left: 189px;
+        top: -29px;
+    }
+    span.navbar-brand {
+        position: relative;
+        top: 10px;
+    }
 }
