@@ -14,7 +14,7 @@ function Home() {
             <section className="homepage d-flex align-items-center">
                 <div className="container-fluid nav_bg">
                     <div className="row">
-                        <div className="col-12 mx-auto">
+                        <div className="col-10 mx-auto">
                             <div className="row">
                                 <div className="col-sm-12 col-md-6 order-2 order-lg-1 homepage_text_container d-flex justify-content-center flex-column">
                                     <span className="hello_text">Hello! I'm</span>
@@ -23,8 +23,8 @@ function Home() {
 
                                     <div className="follow_resources">
                                         <h4 className="follow_text">Follow Me</h4>
-                                        <div className="pt-3 socail_medias">
-                                            <a href="https://www.facebook.com/abtahinoorsm" target="_blank" rel="noreferrer"><FacebookIcon/></a>
+                                        <div className="socail_medias">
+                                            <a href="https://www.facebook.com/abtahinoorsm" target="_blank" rel="noreferrer"><FacebookIcon /></a>
                                             <a href="https://www.instagram.com/smabtahinoor" target="_blank" rel="noreferrer"><InstagramIcon /></a>
                                             <a href="https://www.twitter.com/smabtahinoor" target="_blank" rel="noreferrer"><TwitterIcon /></a>
                                             <a href="https://www.linkedin.com/smabtahinoor" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
@@ -35,7 +35,7 @@ function Home() {
                                     <NavLink to="/contact" className="hire_text">
                                         <Button className="mt-5 hire_btn">Hire me</Button>
                                     </NavLink>
-                                    
+
                                 </div>
                                 <div className="col-lg-6 order-1 order-lg-2 homepage_image">
                                     <img src="https://i.ibb.co/drdRr7p/Developer-activity-bro.png" className="img-fluid animated" alt="homepageimage" />
@@ -44,11 +44,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-
-
-
             </section>
-
         </>
     );
 }

@@ -9,7 +9,7 @@ function Navigation() {
     <>
       <div className="container-fluid nav-bg mainnavbar">
         <div className="row">
-          <div className="col-12 mx-auto">
+          <div className="col-10 mx-auto">
 
             <Navbar expand="lg" className="navbar">
               <Navbar.Brand>
