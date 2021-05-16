@@ -16,7 +16,7 @@ function Home() {
                     <div className="row">
                         <div className="col-10 mx-auto">
                             <div className="row">
-                                <div className="col-sm-12 col-md-6 order-2 order-lg-1 homepage_text_container d-flex justify-content-center flex-column">
+                                <div className="col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1 homepage_text_container d-flex justify-content-center flex-column">
                                     <span className="hello_text">Hello! I'm</span>
                                     <h1 className="my_name_text">SM Abtahi Noor</h1>
                                     <h3 className="subtile_designation">Frontend Web Developer</h3>
@@ -37,8 +37,8 @@ function Home() {
                                     </NavLink>
 
                                 </div>
-                                <div className="col-lg-6 order-1 order-lg-2 homepage_image">
-                                    <img src="https://i.ibb.co/drdRr7p/Developer-activity-bro.png" className="img-fluid animated" alt="homepageimage" />
+                                <div className="col-lg-6 order-1 order-lg-2 mt-5 homepage_image">
+                                    <img src="https://i.ibb.co/drdRr7p/Developer-activity-bro.png" className="img-fluid" alt="homepageimage" />
                                 </div>
                             </div>
                         </div>

@@ -1,5 +1,6 @@
 import './styles/Navigation.css'
 import './styles/Home.css'
+import './styles/Error.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation'
 import Home from './pages/Home'
@@ -8,6 +9,7 @@ import Services from './pages/Services'
 import Projects from './pages/Projects'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
+import Error from './pages/Error'
 import {Switch,Route} from 'react-router-dom'
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
       <Route exact path='/projects' component={Projects}/>
       <Route exact path='/gallery' component={Gallery}/>
       <Route exact path='/contact' component={Contact}/>
+      <Route exact component={Error}/>
     </Switch>
     </>
   );

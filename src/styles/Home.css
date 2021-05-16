@@ -1,7 +1,8 @@
-.homepage{
-    width:100%;
-    height:90vh;
+.homepage {
+    width: 100%;
+    height: 90vh;
 }
+
 /* 
 .homepage_text_container{
     display: flex;
@@ -9,38 +10,42 @@
     justify-content: center;
     min-height: 90vh;
 } */
-.hello_text{
-    color:#00CF5D;
-    font-size:19px;
+.hello_text {
+    color: #00CF5D;
+    font-size: 19px;
 }
-.my_name_text{
+
+.my_name_text {
     font-size: 62px;
     font-weight: 900;
     margin-bottom: 20px;
 }
-.subtile_designation{
+
+.subtile_designation {
     color: #00CF5D;
     font-weight: 600;
     font-size: 24px;
 
 }
-.follow_text{
-    background:#1D293A;
+
+.follow_text {
+    background: #1D293A;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     display: inline;
-    padding:10px;
-    font-size:17px;
+    padding: 10px;
+    font-size: 17px;
     font-family: 'Lato';
     text-transform: uppercase;
-    font-weight:700;
+    font-weight: 700;
     letter-spacing: 1px;
     position: relative;
 }
-.follow_text::after{
+
+.follow_text::after {
     content: '';
     width: 48px;
     height: 3px;
@@ -49,20 +54,22 @@
     left: 129px;
     top: 17px;
 }
-.follow_resources{
 
-    margin-top: 1.5rem!important;
+.follow_resources {
+
+    margin-top: 1.5rem !important;
 }
 
-.socail_medias{
+.socail_medias {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width:179px;
+    width: 179px;
     cursor: pointer;
     margin-top: 17px;
 }
-.socail_medias a{
+
+.socail_medias a {
     color: white;
     transition: 0.8s;
     -webkit-transition: 0.8s;
@@ -70,70 +77,80 @@
     -ms-transition: 0.8s;
     -o-transition: 0.8s;
 }
-.socail_medias a:hover{
-    color:#00CF5D;
+
+.socail_medias a:hover {
+    color: #00CF5D;
 }
 
-.hire_btn{
+.hire_btn {
     border: 2px solid #00CF5D !important;
-    width:156px !important;
-    color:white !important;
+    width: 156px !important;
+    color: white !important;
     text-transform: uppercase !important;
     background-color: #00CF5D !important;
-    padding:9px !important;
-    font-size:17px !important;
+    padding: 9px !important;
+    font-size: 17px !important;
     font-weight: 600 !important;
     text-decoration: none;
 
 }
-.hire_text:hover{
+
+.hire_text:hover {
     text-decoration: none !important;
 }
 
 
-@media screen and (max-width:575px){
-    .homepage_image{
+@media screen and (max-width:575px) {
+    .homepage_image {
         display: none;
     }
-    .hello_text{
+
+    .hello_text {
         display: block;
         text-align: center;
     }
-    .my_name_text{
+
+    .my_name_text {
         font-size: 42px;
         text-align: center;
     }
-    .subtile_designation{
+
+    .subtile_designation {
         font-size: 20px;
         text-align: center;
         margin-top: -10px;
     }
 
-    .follow_resources{
-        display:flex;
-        flex-direction: row;
+    .follow_resources {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .follow_text{
-        padding:10px;
-        font-size:15px;
+
+    .follow_text {
+        padding: 10px;
+        font-size: 15px;
+        margin-bottom: 18px;
     }
-    .follow_text::after{
+
+    .follow_text::after {
         display: none;
     }
-    .socail_medias{
+
+    .socail_medias {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width:149px;
+        width: 170px;
         cursor: pointer;
         margin-top: -8px;
         margin-left: 7px;
 
     }
-    .socail_medias a{
+
+    .socail_medias a {
         color: white;
         transition: 0.8s;
         -webkit-transition: 0.8s;
@@ -141,24 +158,105 @@
         -ms-transition: 0.8s;
         -o-transition: 0.8s;
     }
-    .hire_text{
+
+    .hire_text {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top:-25px !important;
     }
-    
-    .hire_btn{
+
+    .hire_btn {
         border: 2px solid #00CF5D !important;
-        width:156px !important;
-        color:white !important;
+        width: 156px !important;
+        color: white !important;
         text-transform: uppercase !important;
         background-color: #00CF5D !important;
-        padding:9px !important;
-        font-size:17px !important;
+        padding: 9px !important;
+        font-size: 17px !important;
         font-weight: 600 !important;
         text-decoration: none;
-    
+
     }
-    
+
+}
+
+
+@media screen and (max-width:992px){
+    .homepage_image{
+        /* margin-top: 400px; */
+        z-index:-1;
+    }
+    .hello_text {
+        display: block;
+        text-align: center;
+    }
+
+    .my_name_text {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .subtile_designation {
+        font-size: 20px;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .follow_resources {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .follow_text {
+        padding: 10px;
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+
+    .follow_text::after {
+        display: none;
+    }
+
+    .socail_medias {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 170px;
+        cursor: pointer;
+        margin-top: -8px;
+        margin-left: 7px;
+
+    }
+
+    .socail_medias a {
+        color: white;
+        transition: 0.8s;
+        -webkit-transition: 0.8s;
+        -moz-transition: 0.8s;
+        -ms-transition: 0.8s;
+        -o-transition: 0.8s;
+    }
+
+    .hire_text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 46px;
+    }
+
+    .hire_btn {
+        border: 2px solid #00CF5D !important;
+        width: 156px !important;
+        color: white !important;
+        text-transform: uppercase !important;
+        background-color: #00CF5D !important;
+        padding: 9px !important;
+        font-size: 17px !important;
+        font-weight: 600 !important;
+        text-decoration: none;
+
+    }
 }

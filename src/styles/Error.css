@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500&display=swap');
+
+/*======================
+    404 page
+=======================*/
+
+
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    font-family: 'Arvo', serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100% !important;
+    overflow-x: hidden;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+}
+
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.four_zero_four_bg h3 {
+    font-size: 80px;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.contant_box_404 {
+    margin-top: -50px;
+}
+
+.contant_box_404 h3{
+    font-family: 'Lato', sans-serif !important;
+}
+.contant_box_404 p{
+    font-family: 'Lato', sans-serif !important;
+}

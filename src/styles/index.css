@@ -11,3 +11,14 @@ body {
   background-color: #111a28 !important;
   color: #fff !important;
 }
+body::-webkit-scrollbar{
+  width:5px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #00CF5D;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
