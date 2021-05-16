@@ -36,6 +36,7 @@
 }
 .burgerMenu{
     background:#00CF5D !important;
+    z-index: 999;
 }
 
 

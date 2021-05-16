@@ -251,11 +251,11 @@
         border: 2px solid #00CF5D !important;
         width: 156px !important;
         color: white !important;
-        text-transform: uppercase !important;
+        text-transform: capitalize !important;
         background-color: #00CF5D !important;
         padding: 9px !important;
         font-size: 17px !important;
-        font-weight: 600 !important;
+        font-weight: 500 !important;
         text-decoration: none;
 
     }
