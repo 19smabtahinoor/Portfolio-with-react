@@ -32,7 +32,7 @@ function Projects() {
                                     )
                                 })}
 
-                                <a href="https://github.com/19smabtahinoor" target="_blank" el="noreferrer">
+                                <a href="https://github.com/19smabtahinoor" target="_blank" rel="noreferrer">
                                 <Button className="See_more_btn">See More</Button>
                                 </a>
 
