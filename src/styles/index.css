@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500&display=swap');
-
+@import "~react-image-gallery/styles/css/image-gallery.css";
 * {
   margin: 0px;
   padding: 0px;
@@ -21,4 +21,32 @@ body::-webkit-scrollbar-thumb{
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
+}
+
+.img_slider{
+  height:500px;
+  width:600px;
+
+}
+
+
+img.image-gallery-image {
+    width: 500px !important;
+    height:400px !important;
+    border-radius:10px !important;
+    transform:scale(0.97) !important;
+    transition:0.7s !important;
+    object-fit:cover !important;
+}
+img.image-gallery-image:hover{
+  transform:scale(1)
+}
+svg.image-gallery-svg {
+    width: 29px !important;
+}
+img.image-gallery-thumbnail-image {
+    width: 88px !important;
+    height: 100px !important;
+    object-fit: cover;
+    border-radius:10px !important;
 }
