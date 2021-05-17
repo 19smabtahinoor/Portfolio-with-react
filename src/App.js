@@ -3,6 +3,7 @@ import './styles/Home.css'
 import './styles/Error.css'
 import './styles/About.css'
 import './styles/Services.css'
+import './styles/Projects.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation'
 import Home from './pages/Home'

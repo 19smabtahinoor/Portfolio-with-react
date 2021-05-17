@@ -14,9 +14,7 @@ function Services() {
                             </div>
 
                             <div className="row my-5 d-flex justify-content-center flex-row">
-                        {/* <div className="row"> */}
                            
-                                
                                     {ServiceData.map((value, index) => {
                                         return (
                                             <div className="col-sm-12 col-md-4 col-lg-4">
