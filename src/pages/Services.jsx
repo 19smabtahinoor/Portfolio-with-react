@@ -19,7 +19,7 @@ function Services() {
                                         return (
                                             <div className="col-sm-12 col-md-4 col-lg-4">
                                             <Card
-                                                key={index}
+                                                key={value.id}
                                                 cardImg={value.image}
                                                 cardTitle={value.title}
                                                 cardDesc={value.description}
