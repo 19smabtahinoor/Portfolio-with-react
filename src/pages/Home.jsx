@@ -6,6 +6,10 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Button from '@material-ui/core/Button';
 import { NavLink } from 'react-router-dom'
+import About from '../pages/About'
+import Services from '../pages/Services'
+import Projects from '../pages/Projects'
+import Gallery from '../pages/Gallery'
 
 
 function Home() {
@@ -45,6 +49,10 @@ function Home() {
                     </div>
                 </div>
             </section>
+            <About/>
+            <Services/>
+            <Projects/>
+            <Gallery/>
         </>
     );
 }

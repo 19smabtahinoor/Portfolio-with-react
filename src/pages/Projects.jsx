@@ -11,7 +11,7 @@ function Projects() {
                     <div className="row">
                         <div className="col-10 mx-auto">
                             <div className="pt-5 about_page_heading">
-                                <h1 className="text-center">My Projects</h1>
+                                <h1 className="pt-4 text-center">My Projects</h1>
                                 <span className="d-block text-center bottom_border"></span>
                             </div>
 

@@ -20,7 +20,7 @@ function About() {
 
                                     Besides my study, I'm working as <b>Frontend Web Developer</b>. I'm an <b>Artist</b> .Painting is my hobby.
 
-                                    Otherwise, I have been receiving awards from different places since 2013.I got two International Award.One of them,I got prizes from Japan in 2013 at painting.Other,I got prizes from Turkey in 2019 at painting.I stayed Turkey for seven days to met the Turkey's President Recep Tayyip Erdoğan.I have more than 60 certificates and medals.I am very happy to get many awards and I wanna to work for the country and the people of the country when I grow up.</p>
+                                    Otherwise, I have been receiving awards from different places since 2013.I got two International Award.One of them,I got prizes from Japan in 2013 at painting.Other,I got prizes from Turkey in 2019 at painting.I stayed Turkey for seven days to met the <b style={{color:'#00CF5D'}}>Turkey's President Recep Tayyip Erdoğan</b>.I have more than 60 certificates and medals.I am very happy to get many awards and I wanna to work for the country and the people of the country when I grow up.</p>
 
                                     <div className="get_in_touch_btn">
                                     <NavLink to="/contact" className="hire_text">

@@ -50,3 +50,17 @@ img.image-gallery-thumbnail-image {
     object-fit: cover;
     border-radius:10px !important;
 }
+
+.inputsField{
+  border:1px solid #00CF5D !important;
+  background:none !important;
+  color:white !important;
+  padding: 7px !important;
+  height: 48px !important;
+}
+.inputsTextField{
+  border:1px solid #00CF5D !important;
+  background:none !important;
+  color:white !important;
+  padding: 7px !important;
+}
