@@ -10,6 +10,7 @@ import About from '../pages/About'
 import Services from '../pages/Services'
 import Projects from '../pages/Projects'
 import Gallery from '../pages/Gallery'
+import Contact from '../pages/Contact'
 
 
 function Home() {
@@ -53,6 +54,7 @@ function Home() {
             <Services/>
             <Projects/>
             <Gallery/>
+            <Contact/>
         </>
     );
 }
