@@ -1,6 +1,6 @@
 /* navbar styling */
 .mainnavbar{
-       border-bottom: 2px solid #34353533;
+    border-bottom: 2px solid #34353533;
     position: fixed;
     background: #111a28;
     z-index: 999;

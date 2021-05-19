@@ -27,7 +27,7 @@ function About() {
                                         <Button className="mt-3 hire_btn">Get in Touch</Button>
                                     </NavLink>
 
-                                    <NavLink to="/projects" className="hire_text">
+                                    <NavLink to="/skill" className="hire_text">
                                         <Button className="mt-3 ml-2 skill_btn">Skill</Button>
                                     </NavLink>
                                     </div>

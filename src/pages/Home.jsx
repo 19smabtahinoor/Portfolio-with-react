@@ -11,6 +11,11 @@ import Services from '../pages/Services'
 import Projects from '../pages/Projects'
 import Gallery from '../pages/Gallery'
 import Contact from '../pages/Contact'
+import Skill from '../pages/Skill'
+// import TypeWriter from "react-typewriter";
+import Typing from 'react-typing-animation';
+
+
 
 
 function Home() {
@@ -23,7 +28,10 @@ function Home() {
                             <div className="row">
                                 <div className="col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1 homepage_text_container d-flex justify-content-center flex-column">
                                     <span className="hello_text">Hello! I'm</span>
-                                    <h1 className="my_name_text">SM Abtahi Noor</h1>
+                                    {/* <TypeWriter typing={0.3} className="my_name_text">SM Abtahi Noor</TypeWriter> */}
+                                    <Typing>
+                                        <h1 className="my_name_text">SM Abtahi Noor</h1>
+                                    </Typing>
                                     <h3 className="subtile_designation">Frontend Web Developer</h3>
 
                                     <div className="follow_resources">
@@ -50,11 +58,12 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <About/>
-            <Services/>
-            <Projects/>
-            <Gallery/>
-            <Contact/>
+            <About />
+            <Services />
+            <Skill/>
+            <Projects />
+            <Gallery />
+            <Contact />
         </>
     );
 }
