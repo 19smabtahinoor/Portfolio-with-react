@@ -1,4 +1,15 @@
+// catergoties : hcj , react , Design , landingPage
+
 const Projectdata = [
+    {
+        id:13,
+        image: '  https://i.ibb.co/XkKNPXD/Screenshot-48.png',
+        projectTitle: 'Amazon',
+        projectTools: 'React,Next JS,Tailwind CSS,Next-auth,Firebase,Stripe',
+        liveDemo: 'https://amazon-clone-abtahinoor.vercel.app/',
+        github: 'https://github.com/19smabtahinoor/Amazon-Clone-ReactJS',
+        category: 'react'
+    },
     {
         id:1,
         image: 'https://i.ibb.co/Wzd6bLN/fnsclub.png',
@@ -6,6 +17,7 @@ const Projectdata = [
         projectTools: 'HTML,CSS,Javascript,FontAwesome,Google Fonts',
         liveDemo: 'https://fnsclubbyabtahinoor.netlify.app/',
         github: 'https://github.com/19smabtahinoor/FNsClub-Website',
+        category:'landingPage'
     },
     {
         id:2,
@@ -14,6 +26,7 @@ const Projectdata = [
         projectTools: 'HTML,CSS,Javascript,FontAwesome,Google Fonts',
         liveDemo: 'https://lambertrestaurant.netlify.app/',
         github: 'https://github.com/19smabtahinoor/Lambert-WebPage-Design',
+        category:'landingPage'
     },
     {
         id:3,
@@ -22,6 +35,7 @@ const Projectdata = [
         projectTools: 'HTML,CSS,Javascript,FontAwesome,Google Fonts',
         liveDemo: 'https://brigatebyabtahi.netlify.app/',
         github: 'https://github.com/19smabtahinoor/Brigate-Website-Design',
+        category:'landingPage'
     },
     {
         id:4,
@@ -30,6 +44,7 @@ const Projectdata = [
         projectTools: 'HTML,CSS',
         liveDemo: 'https://creativehoverabtahi.netlify.app/',
         github: 'https://github.com/19smabtahinoor/Contact-Box-Design',
+        category:'Design'
     },
     {
         id:5,
@@ -38,6 +53,7 @@ const Projectdata = [
         projectTools: 'HTML,CSS',
         liveDemo: 'https://buttonhovereffect.netlify.app/',
         github: 'https://github.com/19smabtahinoor/Button-Hover-Effect-1',
+        category:'Design'
     },
     {
         id:6,
@@ -46,6 +62,7 @@ const Projectdata = [
         projectTools: 'HTML,CSS,Javascript',
         liveDemo: 'https://expanding-image-cards.vercel.app/',
         github: 'https://github.com/S-M-Abtahi-Noor/Projects/tree/main/1.Expanding%20Cards',
+        category:'hcj'
     },
     {
         id:7,
@@ -54,6 +71,7 @@ const Projectdata = [
         projectTools:'HTML,CSS,React',
         liveDemo:'https://google-keep-clone-react.vercel.app/',
         github:'https://github.com/19smabtahinoor/Google-keep-clone-react',
+        category:'react'
     },
     {
         id:8,
@@ -62,6 +80,7 @@ const Projectdata = [
         projectTools:'HTML,CSS,React',
         liveDemo:'https://live-image-search-react.vercel.app',
         github:'https://github.com/19smabtahinoor/Live-image-search-react',
+        category:'react'
     },
     {
         id:9,
@@ -70,6 +89,7 @@ const Projectdata = [
         projectTools:'HTML,CSS,React',
         liveDemo:'https://todo-list-app-react.vercel.app/',
         github:'https://github.com/19smabtahinoor/Todo-list-app-React',
+        category:'react'
     },
     {
         id:10,
@@ -78,6 +98,7 @@ const Projectdata = [
         projectTools:'HTML,CSS,Javascript',
         liveDemo:'https://faq-vanilla-js.vercel.app/',
         github:'https://github.com/S-M-Abtahi-Noor/Projects/tree/main/17.FAQ%20Question',
+        category:'hcj'
     },
     {
         id:11,
@@ -86,6 +107,7 @@ const Projectdata = [
         projectTools:'HTML,CSS,Javascript',
         liveDemo:'https://abtahi-image-gallery.vercel.app/',
         github:'https://github.com/S-M-Abtahi-Noor/Projects/tree/main/15.%20Abtahi%20Image%20Gallery',
+        category:'hcj'
     },
     {
         id:12,
@@ -94,16 +116,8 @@ const Projectdata = [
         projectTools:'HTML,CSS,Javascript,API',
         liveDemo:'https://search-a-github-user.vercel.app/',
         github:'https://github.com/S-M-Abtahi-Noor/Projects/tree/main/14.Github%20Profiles',
+        category:'hcj'
     },
 
 ]
 export default Projectdata
-
-
-// {
-//     image : '',
-//     projectTitle:'',
-//     projectTools:'HTML,CSS,Javascript,FontAwesome,Google Fonts',
-//     liveDemo:'',
-//     github:'',
-// },

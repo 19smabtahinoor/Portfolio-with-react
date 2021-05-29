@@ -64,3 +64,19 @@ img.image-gallery-thumbnail-image {
   color:white !important;
   padding: 7px !important;
 }
+
+
+.carousel.carousel-slider{
+  position:relative;
+  overflow:hidden;
+  margin:0;
+  height:600px;
+  width:100%;
+  object-fit:cover;
+}
+@media only screen and (max-width: 480px) {
+  ..carousel.carousel-slider {
+    padding: 50px;
+    height:300px;
+  }
+}
