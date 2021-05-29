@@ -35,8 +35,10 @@ function Projects() {
                             </div>
                             <div className="row my-5 d-flex justify-content-center flex-row">
                                 {projectItem.map((value, index) => {
+                                    
                                     return (
-                                        <div className="col-sm-12 col-md-4 col-lg-4">
+                                        
+                                        <div className="col-sm-12 col-md-4 col-lg-4" key={index}>
                                             <div className="card">
                                                 <img src={value.image} className="card-img-top" alt="cardimg" />
                                                 <div className="card-body">

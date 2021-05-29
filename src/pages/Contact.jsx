@@ -118,7 +118,7 @@ function Contact() {
                                             </Form.Group>
                                         </Form.Row>
                                             <Button 
-                                            variant="primary" 
+                                            variant="contained" 
                                             type="submit" 
                                             className="btn">
                                                 Submit

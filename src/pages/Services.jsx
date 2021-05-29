@@ -17,9 +17,9 @@ function Services() {
                            
                                     {ServiceData.map((value, index) => {
                                         return (
-                                            <div className="col-sm-12 col-md-4 col-lg-4">
+                                            <div className="col-sm-12 col-md-4 col-lg-4" key={index}>
                                             <Card
-                                                key={value.id}
+                                                key={index}
                                                 cardImg={value.image}
                                                 cardTitle={value.title}
                                                 cardDesc={value.description}
