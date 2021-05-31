@@ -118,6 +118,15 @@ const Projectdata = [
         github:'https://github.com/S-M-Abtahi-Noor/Projects/tree/main/14.Github%20Profiles',
         category:'hcj'
     },
+    {
+        id:14,
+        image: 'https://i.ibb.co/wcYsnkQ/covid.png',
+        projectTitle: 'Covid-19 Live Tracker App',
+        projectTools: 'React,Tailwind CSS,API,Material-UI',
+        liveDemo: 'https://covid-19-tracker-app-abtahinoor.vercel.app/',
+        github: 'https://github.com/19smabtahinoor/Covid-19-Tracker-App-React',
+        category: 'react'
+    },
 
 ]
 export default Projectdata
