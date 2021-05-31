@@ -11,6 +11,24 @@ const Projectdata = [
         category: 'react'
     },
     {
+        id:14,
+        image: 'https://i.ibb.co/wcYsnkQ/covid.png',
+        projectTitle: 'Covid-19 Live Tracker App',
+        projectTools: 'React,Tailwind CSS,API,Material-UI',
+        liveDemo: 'https://covid-19-tracker-app-abtahinoor.vercel.app/',
+        github: 'https://github.com/19smabtahinoor/Covid-19-Tracker-App-React',
+        category: 'react'
+    },
+    {
+        id:15,
+        image: 'https://i.ibb.co/tXnDSJ4/screencapture-shopping-cart-react-delta-vercel-app-2021-05-31-21-16-04.png',
+        projectTitle: 'Shopping Cart Application',
+        projectTools: 'React,Tailwind CSS,API,Material-UI,Checkout,Authentication',
+        liveDemo: 'https://shopping-cart-react-delta.vercel.app/',
+        github: 'https://github.com/19smabtahinoor/Shopping-Cart-React',
+        category: 'react'
+    },
+    {
         id:1,
         image: 'https://i.ibb.co/Wzd6bLN/fnsclub.png',
         projectTitle: 'Fns Club Clone',
@@ -117,16 +135,7 @@ const Projectdata = [
         liveDemo:'https://search-a-github-user.vercel.app/',
         github:'https://github.com/S-M-Abtahi-Noor/Projects/tree/main/14.Github%20Profiles',
         category:'hcj'
-    },
-    {
-        id:14,
-        image: 'https://i.ibb.co/wcYsnkQ/covid.png',
-        projectTitle: 'Covid-19 Live Tracker App',
-        projectTools: 'React,Tailwind CSS,API,Material-UI',
-        liveDemo: 'https://covid-19-tracker-app-abtahinoor.vercel.app/',
-        github: 'https://github.com/19smabtahinoor/Covid-19-Tracker-App-React',
-        category: 'react'
-    },
+    }
 
 ]
 export default Projectdata
