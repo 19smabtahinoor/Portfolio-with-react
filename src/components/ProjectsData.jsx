@@ -11,6 +11,15 @@ const Projectdata = [
         category: 'react'
     },
     {
+        id:16,
+        image: 'https://i.ibb.co/7Cnw01T/Screenshot-49.png',
+        projectTitle: 'Airbnb Clone',
+        projectTools: 'React,Tailwind CSS,API,Material-UI',
+        liveDemo: 'https://airbnb-clone-abtahinoor.vercel.app/',
+        github: 'https://github.com/19smabtahinoor/Airbnb-Clone-React',
+        category: 'react'
+    },
+    {
         id:14,
         image: 'https://i.ibb.co/wcYsnkQ/covid.png',
         projectTitle: 'Covid-19 Live Tracker App',

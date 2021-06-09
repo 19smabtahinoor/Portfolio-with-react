@@ -1,7 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import { Swiper, SwiperSlide } from "swiper/react";
 import Projectdata from '../components/ProjectsData'
 import Button from '@material-ui/core/Button';
 import GitHubIcon from '@material-ui/icons/GitHub';
+
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/components/effect-coverflow/effect-coverflow.min.css"
+import "swiper/components/pagination/pagination.min.css"
+
+
+import SwiperCore, {
+    EffectCoverflow,Pagination
+  } from 'swiper/core';
+// install Swiper modules
+SwiperCore.use([EffectCoverflow,Pagination]);
+
+
 
 function Projects() {
 
@@ -14,7 +29,6 @@ function Projects() {
         setProjectItem(filteringCategory)
 
     }
-
     return (
         <>
             <section className="about_page d-flex align-items-center">
@@ -32,38 +46,51 @@ function Projects() {
                                 <Button className="filerTabButton" onClick={() => filterinProjects('hcj')}>Javascript</Button>
                                 <Button className="filerTabButton" onClick={() => filterinProjects('Design')}>Designs</Button>
                                 <Button className="filerTabButton" onClick={() => filterinProjects('react')}>React</Button>
+                               
                             </div>
-                            <div className="row my-5 d-flex justify-content-center flex-row">
-                                {projectItem.map((value, index) => {
-                                    
-                                    return (
-                                        
-                                        <div className="col-sm-12 col-md-4 col-lg-4" key={index}>
-                                            <div className="card">
-                                                <img src={value.image} className="card-img-top" alt="cardimg" />
-                                                <div className="card-body">
-                                                    <h5 className="card-title">{value.projectTitle}</h5>
-                                                    <p className="card-text">Tools & Technology : {value.projectTools}</p>
-                                                    <a href={value.liveDemo} target="_blank" style={{ textDecoration: 'none' }} rel="noreferrer">
-                                                        <Button className="btn">Live Demo</Button>
-                                                    </a>
-                                                    <a href={value.github} className="githubIcon" target="_blank" rel="noreferrer">
-                                                        <GitHubIcon />
-                                                    </a>
+                            <Swiper effect={'coverflow'} grabCursor={true} centeredSlides={false} slidesPerView={3} coverflowEffect={{"rotate": 50,"stretch": 0,"depth": 100,"modifier": 1,"slideShadows": true}} pagination={true} className="mySwiper">
+
+                                <div className="row my-5 d-flex justify-content-center flex-row">
+
+
+                                    {projectItem.map((value, index) => {
+
+                                        return (
+                                            <SwiperSlide >
+                                                <div className="col-12" key={index}>
+                                                    <div className="card">
+                                                        <img src={value.image} className="card-img-top" alt="cardimg" />
+                                                        <div className="card-body">
+                                                            <h5 className="card-title">{value.projectTitle}</h5>
+                                                            <p className="card-text">Tools & Technology : {value.projectTools}</p>
+                                                            <a href={value.liveDemo} target="_blank" style={{ textDecoration: 'none' }} rel="noreferrer">
+                                                                <Button className="btn">Live Demo</Button>
+                                                            </a>
+                                                            <a href={value.github} className="githubIcon" target="_blank" rel="noreferrer">
+                                                                <GitHubIcon />
+                                                            </a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    )
-                                })}
-                            </div>
+                                            </SwiperSlide>
+
+
+
+                                        )
+                                    })}
+
+
+                                </div>
+
+                            </Swiper>
                             <div className="d-flex justify-content-center flex-row mt-4">
-                            <a href="https://github.com/19smabtahinoor" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/19smabtahinoor" target="_blank" rel="noreferrer">
                                     <Button className="See_more_btn">See More</Button>
-                            </a>
+                                </a>
                             </div>
-                           
+
                         </div>
-                       
+
 
                     </div>
                 </div>
