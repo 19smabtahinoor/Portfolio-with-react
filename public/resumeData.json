@@ -1,0 +1,180 @@
+{
+   "main": {
+      "name": "S.M.Abtahi Noor",
+      "occupation": "Frontend Developer",
+      "description": "I eat, sleep and breathe React",
+      "image": "profilepic.jpg",
+      "bio": "Hello dear! I'm S.M.Abtahi Noor. I'm a student of Class VIII. I study at Dhaka Residential Model College. Besides my study, I'm working as Frontend Web Developer. I'm an Artist .Painting is my hobby. Otherwise, I have been receiving awards from different places since 2013.I got two International Award.One of them,I got prizes from Japan in 2013 at painting.Other,I got prizes from Turkey in 2019 at painting.I stayed Turkey for seven days to met the Turkey's President Recep Tayyip Erdoğan.I have more than 60 certificates and medals.I am very happy to get many awards and I wanna to work for the country and the people of the country when I grow up.",
+      "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
+      "email": "smabtahinoor@gmail.com",
+      "phone": "+8801400000000",
+      "address": {
+         "street": "Hazi Chinu Mia Road",
+         "city": "Dhaka",
+         "state": "Mohammadpur",
+         "zip": "1207"
+      },
+      "website": "https://smabtahinoor.vercel.app",
+      "resumedownload": "https://drive.google.com/file/d/1bRq3RfbRoCI7x8OtlgRS4Zsz7PFtpECV/view?usp=sharing",
+      "social": [
+         {
+            "name": "youtube",
+            "url": "https://www.youtube.com/channel/UChiVraUvxtzdcbqVDu4ngQw",
+            "className": "fa fa-youtube"
+         },
+         {
+            "name": "facebook",
+            "url": "https://www.facebook.com/abtahinoorsm",
+            "className": "fa fa-facebook"
+         },
+         {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/smabtahinoor",
+            "className": "fa fa-linkedin"
+         },
+         {
+            "name": "instagram",
+            "url": "https://www.instagram.com/smabtahinoor/",
+            "className": "fa fa-instagram"
+         },
+         {
+            "name": "github",
+            "url": "https://github.com/19smabtahinoor",
+            "className": "fa fa-github"
+         }
+      ]
+   },
+   "resume": {
+      "skillmessage": "My Programming Language Proficiency",
+      "education": [
+         {
+            "school": "Dhaka Residential Model College",
+            "degree": "High School Student",
+            "graduated": "2021",
+            "description": "I read in Class 8 at Dhaka Residential Model College"
+         }
+      ],
+      "skills": [
+         {
+            "name": "HTML",
+            "level": "95%"
+         },
+         {
+            "name": "CSS",
+            "level": "85%"
+         },
+         {
+            "name": "Tailwind CSS",
+            "level": "80%"
+         },
+         {
+            "name": "Bootstrap",
+            "level": "80%"
+         },
+         {
+            "name": "JavaScript",
+            "level": "75%"
+         },
+         {
+            "name": "ReactJs",
+            "level": "80%"
+         },
+         {
+            "name": "Python",
+            "level": "40%"
+         },
+         {
+            "name": "Git",
+            "level": "70%"
+         }
+      ]
+   },
+   "portfolio": {
+      "projects": [
+         {
+            "image": "amazon.png",
+            "projectTitle": "Amazon",
+            "projectTools": "React,Next JS,Tailwind CSS,Next-auth,Firebase,Stripe",
+            "liveDemo": "https://amazon-clone-abtahinoor.vercel.app/",
+            "github": "https://github.com/19smabtahinoor/Amazon-Clone-ReactJS",
+            "category": "react"
+         },
+         {
+            "image": "cortelink.png",
+            "projectTitle": "CortexLink School Website",
+            "projectTools": "React,Tailwind CSS,Plotly",
+            "liveDemo": "https://cortexlink-react.vercel.app/",
+            "github": "https://github.com/19smabtahinoor/CortexLink-School-Website-React",
+            "category": "react"
+         },
+         {
+            "image": "jamrock.png",
+            "projectTitle": "Jamrock Taxi Website",
+            "projectTools": "React,Node JS,Tailwind CSS,Bootstrap,Google Places API,Stripe",
+            "liveDemo": "https://jamrock-taxi-react.vercel.app/",
+            "github": "https://github.com/19smabtahinoor/Jamrock-taxi-react",
+            "category": "react"
+         },
+         {
+            "image": "ph.png",
+            "projectTitle": "Programming Hero Clone",
+            "projectTools": "React,Tailwind CSS,Auth0",
+            "liveDemo": "https://programming-hero-clone-smabtahinoor.vercel.app/",
+            "github": "https://github.com/19smabtahinoor/Programming-hero-clone-react",
+            "category": "react"
+         },
+         {
+            "image": "weather.png",
+            "projectTitle": "Weather App",
+            "projectTools": "React,Weather API",
+            "liveDemo": "https://weather-app-react-i9feovzlk-smabtahinoor.vercel.app/",
+            "github": "https://github.com/19smabtahinoor/Weather-App-React",
+            "category": "react"
+         },
+         {
+            "image": "github.png",
+            "projectTitle": "Search a Github User",
+            "projectTools": "Javascript,Github User API",
+            "liveDemo": "https://search-a-github-user-git-main-smabtahinoor.vercel.app",
+            "github": "https://github.com/19smabtahinoor/Search-a-github-user",
+            "category": "Javascript"
+         },
+         {
+            "image": "markdown.png",
+            "projectTitle": "Markdown Editor",
+            "projectTools": "React",
+            "liveDemo": "https://markdown-editor-react.vercel.app/",
+            "github": "https://github.com/19smabtahinoor/Markdown-Editor-React",
+            "category": "React"
+         },
+         {
+            "image": "todo.png",
+            "projectTitle": "Todo App",
+            "projectTools": "React",
+            "liveDemo": "https://todo-for-you.vercel.app/",
+            "github": "https://github.com/19smabtahinoor/Todo-App-React-Localstroage",
+            "category": "React"
+         },
+         {
+            "image": "googlekeep.png",
+            "projectTitle": "Google Keep",
+            "projectTools": "React",
+            "liveDemo": "https://google-keep-clone-react-git-main-smabtahinoor.vercel.app/",
+            "github": "https://github.com/19smabtahinoor/Google-keep-clone-react",
+            "category": "React"
+         }
+      ]
+   },
+   "testimonials": {
+      "testimonials": [
+         {
+            "text": "No doubt you're a great person. You have strong command on your skills too. I will definitely work with you in future.",
+            "user": "Asif,Pakistan"
+         },
+         {
+            "text": "@Abtahi did a great job.He continuously communicated with me during the development process to make sure we on the same page.Excellent communication and development work.He delivered well organized and clean code.I will definitely use his service again in the future",
+            "user": "preet395,United States"
+         }
+      ]
+   }
+}
